@@ -1,2 +1,2 @@
 # Data-Structure-II
-Data Structure II all questions solution
+Data Structure II all leetcode questions solution
