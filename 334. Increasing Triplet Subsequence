@@ -1,0 +1,18 @@
+class Solution {
+    public boolean increasingTriplet(int[] nums) {
+    int[] dp= new int[3];
+     int len=0;
+     for(int n: nums){
+         int index= Arrays.binarySearch(dp,0,len, n);
+         if(index<0){
+             index=-(index+1);
+         }
+      
+         dp[index]= n;
+         if(index == len)               
+             len++;
+         if(len==3) return true;
+     }
+     return false;
+    }
+}
