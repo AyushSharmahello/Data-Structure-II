@@ -1,1 +1,50 @@
+*/HTML code*/
+
+<header>
+    <nav>
+        <ul class="navv">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fa fa-search" style="font-size: 20px;"></i>
+        </ul>
+    </nav>
+</header>
+
+
+
+/*CSS CODE*/
+
+
+nav {
+    background-color: black; 
+    
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.navv{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    transition: 0.5s; 
+
+
+
 
